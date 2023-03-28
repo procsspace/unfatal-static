@@ -56,7 +56,9 @@ class Startup {
         if (verbose) console.log('Done checking inside of./public/images');
         
 
-        return "Done";
+        return {
+            result: numberOfInvalidFiles === 0 ? 'No invalid files found' : 'Invalid files found' + numberOfInvalidFiles
+        }
     }
 }
 
