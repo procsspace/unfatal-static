@@ -10,8 +10,6 @@ if (args.length === 0) {
 
 const useVerbose = args[0];
 
-console.log(args)
-
 if (useVerbose === 'verbose=true') {
     startup.checkForInvalidFiles({ verbose: true });
 } else {
