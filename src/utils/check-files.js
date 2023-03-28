@@ -13,5 +13,5 @@ const useVerbose = args[0];
 if (useVerbose === 'verbose=true') {
     startup.checkForInvalidFiles({ verbose: true });
 } else {
-    startup.checkForInvalidFiles();
+    console.log(startup.checkForInvalidFiles({ verbose: false }))
 }
