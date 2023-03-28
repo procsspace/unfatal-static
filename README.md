@@ -13,7 +13,8 @@ This is a repository for a CDN network that can be used to store and distribute 
 To install this repo, simply run the following command:
 
 ```bash
-npm install
+git clone https://github.com/procsspace/unfatal-static static
+cd static
 ```
 
 
